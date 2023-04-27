@@ -1,0 +1,68 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#menu {
+    width: 85vw;
+    font-size: 1rem;
+}
+ 
+#logo {
+    width: 110px;
+}
+
+#title {
+    color: white;
+}
+
+.textoGreen {
+    text-decoration: none !important;
+    color: green !important;
+}
+
+
+.posicionTextoEnImg {
+    text-align: right;
+    top: 43% !important;
+    left: 27% !important;
+    width: 60%;
+    
+}
+
+.card-img {
+    opacity: 0.45!important;
+    width: 100vw !important;
+    height: auto;
+    }
+
+.card-title {
+    width: 90%;
+    font-weight: bolder;
+}
+.card-text {
+    width: 90%;
+}
+
+.card {
+    padding: 0px;
+}
+
+.card-img-top {
+    
+    height: auto;
+    
+}
+
+.imgHonololulu {
+    background-color: #353942;
+    background-size: cover;
+    color: white;
+    width: auto;
+    font-size: small;
+}
+
+.texto-fondonegro {
+    width: 95%;
+
+}
+
