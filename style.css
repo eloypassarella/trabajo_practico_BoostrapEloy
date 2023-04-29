@@ -20,6 +20,9 @@
     color: green !important;
 }
 
+.losbotones {
+    font-size: smaller !important;
+}
 
 .posicionTextoEnImg {
     text-align: right;
@@ -58,11 +61,43 @@
     background-size: cover;
     color: white;
     width: auto;
-    font-size: small;
 }
 
 .texto-fondonegro {
-    width: 95%;
+    width: 100%;
+    font-size: medium;
 
 }
 
+
+.botonsumit {
+    width: 100% !important;
+    background-color: #96C93E !important;
+    color: white !important ;
+}
+
+.recordatorio {
+    font-size: smaller;
+    color: grey;
+    margin-top: 1px;
+}
+
+.texto-subrayado {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.footer {
+    background-color: #1F5271;
+}
+
+.nav-link{
+    text-decoration: none !important;
+    color: white !important;
+    font-size: small !important;
+    margin:2px !important ;
+}
+
+.elfooter {
+    width: 90vw;
+}
