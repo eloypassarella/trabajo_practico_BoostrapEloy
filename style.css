@@ -89,6 +89,7 @@
 
 .footer {
     background: linear-gradient(to right, #1c3643,#1e5372);
+    height: 30vh;
 }
 
 .botonfooter{
@@ -101,3 +102,45 @@
 .elfooter {
     width: 90vw;
 }
+
+/*estilos hoja tickets*/
+.ancho {
+    max-width: 950px !important;
+}
+
+.recto {
+    border-radius: 0px !important;
+}
+
+.titulo-tarjeta {
+    border-bottom: none !important;
+    font-weight: bolder !important;
+    text-align: center !important;
+    font-size: 1.25rem !important;
+}
+
+.dtc {
+    font-weight: normal !important;
+    font-size: 1rem !important;
+    text-align: center;
+}
+
+.porcentaje {
+    font-weight: bolder !important;
+    text-align: center;
+    font-size: 1.15rem !important;
+
+}
+
+.small {
+    font-size: smaller !important;
+}
+
+.colorcito {
+    background-color:#CCE5FF !important ;
+}
+
+.total-pagar{
+    color: blue !important;
+}
+
