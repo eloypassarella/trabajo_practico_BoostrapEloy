@@ -61,17 +61,17 @@
                         <img src="./assets/img/ba1.jpg" class="card-img img-fluid" alt="BannerPrincipal" id="imgp">
                         <div class="card-img-overlay posicionTextoEnImg">
                             <div class="row sticky-sm-top">
-                            <h5 class="card-title">Conf Bs As</h5>
-                            <p class="card-text d-none d-lg-block">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y la experiencia
+                            <h5 class="card-title d-none d-lg-none d-xl-block">Conf Bs As</h5>
+                            <p class="card-text d-none d-lg-none d-xl-block">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y la experiencia
                                 de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer 
                                 nivel que tenemos para ti. Te esperamos! 
                             </p>
                             <div class="d-flex justify-content-end aos-init aos-animate" data-aos="fade-up">
                                 <div class="m-1">
-                                    <button type="button" class="btn btn-outline-light losbotones">Quiero ser orador</button>
+                                    <a href="#form"><button type="button" class="btn btn-outline-light losbotones d-none d-lg-none d-xl-block">Quiero ser orador</button></a>
                                 </div>
                                 <div class=" m-1">
-                                   <a href="tickets.html"> <button type="button" class=" btn btn-success losbotones">Comprar Tickets</button></a>
+                                   <a href="/tickets.html"><button type="button" class=" btn btn-success losbotones d-none d-lg-none d-xl-block">Comprar Tickets</button></a>
                                 </div>
                             </div>
                         </div>
@@ -123,7 +123,7 @@
                     </div>
                 </div>
             </section>
-            <section class="imgHonololulu g-0" id="elLugar aos-init aos-animate" data-aos="fade-up">
+            <section class="imgHonololulu g-0 aos-init aos-animate" id="elLugar" data-aos="fade-up">
                     <div class="row m-1">
                         <div class="col-sm-6 p-0 m-0 col-md-6 p-md-0 m-md-0 col-lg-6 p-lg-0 m-lg-0 g-lg-0 col-xl-6 p-lx-1 m-lx-1">
                             <div ><img src="./assets/img/honolulu.jpg" alt="Imagen Honolulu" class="img-fluid img-2"></div>
@@ -148,16 +148,16 @@
                     <p class="text-center">Anotate como orador para dar una <span class="texto-subrayado">charla ignite</span>. Cuéntanos de que quieres hablar!</p>
                     <div class=" row justify-content-center">
                         <div class="col-sm-11 sm-m-1 p-2 col-md-5 md-m-1 p-2 col-lg-4 lg-m-2 p-2 col-lx-4 lx-m-2 p-2">
-                        <label for="exampleInputEmail1" class="form-label" ></label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre">
+                        <label class="form-label" ></label>
+                        <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Nombre">
                         </div>
                         <div class="col-sm-11 sm-m-1 p-2 col-md-5 md-m-1 p-2 col-lg-4 lg-m-2 p-2 col-lx-4 lx-m-2 p-2">
-                            <label for="exampleInputEmail1" class="form-label" ></label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Apellido">
+                            <label  class="form-label" ></label>
+                            <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Apellido">
                         </div>
                             <div class="col-sm-11 m-sm-1 col-md-11 m-md-1 col-lg-8 m-lg-4 p-lg-2 col-lx-10 m-lx-4 ">
-                                <label for="exampleFormControlTextarea1" class="form-label"></label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Sobre que quieres hablar?"></textarea>
+                                <label class="form-label"></label>
+                                <textarea class="form-control" rows="3" placeholder="Sobre que quieres hablar?"></textarea>
                                 <p class="recordatorio">Recuerda incluir un titulo para tu charla</p>
                                 <button type="submit" class="btn mt-2 botonsumit">Enviar</button>
                             </div> 

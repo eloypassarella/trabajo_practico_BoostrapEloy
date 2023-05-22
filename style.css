@@ -28,7 +28,7 @@
     text-align: right;
     top: 43% !important;
     left: 27% !important;
-    width: 60%;
+    width: 60% !important;
     
 }
 
@@ -89,7 +89,6 @@
 
 .footer {
     background: linear-gradient(to right, #1c3643,#1e5372);
-    height: 30vh;
 }
 
 .botonfooter{
