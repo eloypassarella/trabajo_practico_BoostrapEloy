@@ -47,3 +47,16 @@ function descuento () {
 }
 
 apuntadorAresumen.addEventListener('click',descuento);
+
+
+
+
+const apuntadorAborrar = document.getElementById ("borrar");
+
+apuntadorAborrar.addEventListener('click',borradDatos)
+
+function borradDatos () {
+
+    precio.innerText = 0;
+
+}
